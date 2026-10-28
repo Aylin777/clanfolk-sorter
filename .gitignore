@@ -1,0 +1,22 @@
+# exclude bytecode files
+__pycache__/
+*.py[cod]
+
+# exclude env files
+.venv*/
+.env
+.env.*
+
+# exclude DB files
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+
+# exclude IDE-specific files
+# VS Code
+*.code-workspace
+.vscode/
+
+# JetBrains
+.idea/
